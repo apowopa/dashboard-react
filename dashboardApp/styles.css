@@ -1,0 +1,110 @@
+/* styles.css */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Contenedor principal */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Títulos principales */
+.dashboard-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Secciones */
+.section-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #555;
+}
+
+/* Sección de carga de archivos */
+.file-upload-section {
+    margin-bottom: 20px;
+}
+
+.upload-message {
+    color: green;
+    margin-top: 10px;
+}
+
+/* Tablas */
+.table-container {
+    max-height: 400px;
+    overflow: auto;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.table-container table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-container th,
+.table-container td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Contenedor para cada gráfico */
+.chart-container {
+    max-width: 600px;
+    height: 400px;
+    margin: 0 auto 30px auto;
+    /* centrado y espacio abajo */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    position: relative;
+    /* para evitar superposiciones */
+}
+
+/* Título de cada gráfico */
+.chart-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Ajustes para separar los h3 si fuera necesario */
+.chart-container h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Ajuste para la tabla de correlación */
+.correlation-table {
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.correlation-table th,
+.correlation-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
